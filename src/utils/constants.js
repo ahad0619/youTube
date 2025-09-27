@@ -1,0 +1,2 @@
+const MY_API = AIzaSyDviLkTsl6Ku2Rx_NoYTPMov1AYNquSX0I
+export const YOUTUBE_API =  'https://youtube.googleapis.com/youtube/v3/search?part=snippet&forMine=true&maxResults=25&q=fun&type=video&key=MY_API'
