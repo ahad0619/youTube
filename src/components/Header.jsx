@@ -11,8 +11,8 @@ import {
 
 const Header = () => {
     const dispatch = useDispatch()
-    const handleToggleMenu = ()=> {
-    dispatch(toggleMenu())
+    const handleToggleMenu = () => {
+        dispatch(toggleMenu())
     }
     return (
         <>
@@ -22,7 +22,7 @@ const Header = () => {
                     className="m-3 flex gap-6 ">
                     <TfiAlignJustify
                         className="text-3xl hover:bg-gray-200 cursor-pointer w-14 rounded-4xl"
-                        onClick={handleToggleMenu} />  
+                        onClick={handleToggleMenu} />
                     <ImYoutube2
                         className="text-7xl text-red-600 -mt-5" />
                 </div>
