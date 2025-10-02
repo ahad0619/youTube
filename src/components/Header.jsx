@@ -4,6 +4,7 @@ import { TfiAlignJustify, ImYoutube2, FaUserCircle, IoIosNotificationsOutline, C
 import { useEffect, useState } from 'react'
 import useFetchSearchApi from '../../hooks/useFetchSearchApi'
 import { cacheResults } from '../utils/searchSlice'
+import { Link } from 'react-router-dom'
 
 
 const Header = () => {
@@ -54,8 +55,10 @@ const Header = () => {
                     <TfiAlignJustify
                         className="text-3xl hover:bg-gray-200 cursor-pointer w-14 rounded-4xl"
                         onClick={handleToggleMenu} />
-                    <ImYoutube2
-                        className="text-7xl text-red-600 -mt-5" />
+                       
+                    <Link to="/">  <ImYoutube2
+                        className="text-7xl text-red-600 -mt-5" /></Link>
+                   
                 </div>
                 <div className='flex relative'>
                     <div

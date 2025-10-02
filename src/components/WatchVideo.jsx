@@ -9,7 +9,7 @@ import Comments from "./Comments"
 
 const WatchVideo = () => {
   const [searchParams] = useSearchParams()
-  console.log(searchParams.get("v"))
+  // console.log(searchParams.get("v"))
   const dispatch = useDispatch()
   useEffect(() => {
     dispatch(closeMenu())

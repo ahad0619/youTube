@@ -18,8 +18,8 @@ const MainContainer = () => {
     <div className="w-[90vw]  flex gap-3 flex-wrap mb-6 ml-12">
 
       {videos.map((movie) => {
-        return <Link to={"/watch?v=" + movie.id.videoId}>
-          <VideoCard key={movie.id.videoId} data={movie} />
+        return <Link key={movie.id.videoId} to={"/watch?v=" + movie.id.videoId}>
+          <VideoCard  data={movie} />
         </Link>
       })}
 

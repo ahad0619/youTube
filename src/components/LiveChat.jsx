@@ -10,7 +10,7 @@ const LiveChat = ({ name, message }) => {
 
   useEffect(() => {
     const set = setInterval(() => {
-      console.log("testing")
+      // console.log("testing")
       dispatch(addMessage({
         name: generateRandomName(),
         message: generateRandomString(20)
