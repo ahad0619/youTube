@@ -83,7 +83,7 @@ const Header = () => {
                         </button>
                     </div>
                 </div>
-                {showSuggestion && <div className='absolute top-16 w-89 left-96 ml-36 bg-blue-200 pt-2 rounded-xl'>
+                {showSuggestion && <div className='absolute top-16 w-89 left-96 ml-36 bg-white pt-2 rounded-xl'>
 
 
                     {suggestions.map(

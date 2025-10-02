@@ -15,7 +15,7 @@ function App() {
       children : [
         {
           path : "/",
-          // element : <MainContainer/>
+          element : <MainContainer/>
         },
         {
           path: "/watch",
